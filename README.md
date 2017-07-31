@@ -34,7 +34,7 @@ ref.child("ilya").put({"name":"ilya", "color":"white"})
 
 #update
 var ref = firebase.get_ref("users/ilya")
-ref.update({"color":"white"})
+ref.update({"color":"black"})
 
 #delete
 firebase.get_ref("users/ilya/color").delete()
